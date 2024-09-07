@@ -1,12 +1,16 @@
-package lanchonete.atendimento;
+package salao.balcao;
 
-public class Atendente {
+import rh.Funcionario;
 
+public class Atendente extends Funcionario {
+     public Atendente(String name, Integer idade, String cargo) {
+          super(name, idade, "Atendente");
+     }
      public void servindoMesa() {
           pegarLancheCozinha();
           System.out.println("Servindo mesa");
      }
-     private void pegarLancheCozinha() {
+     public void pegarLancheCozinha() {
           System.out.println("Pegando lanche na cozinha");
      }
      public void receberPagamento() {

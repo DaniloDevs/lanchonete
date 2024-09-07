@@ -1,17 +1,20 @@
-package lanchonete.area.cliente;
+package salao;
 
 public class Cliente {
 
-     public void escolherLanche () {
+     public void escolherLanche() {
           System.out.println("Escolhendo lanche do menu");
      }
-     public void fazerPedido () {
+
+     public void fazerPedido() {
           System.out.println("Fazendo o pedido do lanche!");
      }
-     public void pagarConta () {
+
+     public void pagarConta() {
           System.out.println("Pagando a conta");
      }
-     private void consultarSaldoNoAplicativo () {
+
+     private void consultarSaldoNoAplicativo() {
           System.out.println("Verificando o saldo no aplicativo do banco");
      }
 }
